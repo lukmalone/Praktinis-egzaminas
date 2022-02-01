@@ -1,0 +1,76 @@
+.navigation {
+  height: 72px;
+  width: 100%;
+  background: #1C1C1C;
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    // line-height: 50px;
+    flex-direction: row;
+    background: #1C1C1C;
+    padding-left: 147px;
+    padding-right: 147px;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+    }
+
+    li {
+      padding: 0 20px;
+    }
+
+    li a, a:visited, a:focus {
+      text-decoration: none;
+      text-decoration-color: #86878B;
+      color: white;
+      transition: 0.3s;
+    }
+
+    #logo {
+      display: flex;
+      height: 80%;
+      width: 119px;
+      align-self: flex-start;
+    }
+  }
+
+
+
+  .side-nav {
+    position: relative;
+    top: -50px;
+    height: 100vh;
+    margin: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 250px;
+    transform: translateX(-250px);
+    overflow: hidden;
+    transition: 0.3s;
+  }
+
+  #burger {
+    display: none;
+    font-size: 2em;
+    transition: transform 0.3s;
+  }
+
+  #brand {
+    display: block;
+    font-size: 2em;
+  }
+
+  .rotateZ {
+    transform: rotateZ(-90deg);
+  }
+
+  .width {
+    transform: translateX(0);
+  }
+}

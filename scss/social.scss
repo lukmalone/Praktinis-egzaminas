@@ -1,0 +1,42 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+  padding: 0 152px;
+
+}
+
+.social h4 {
+  color: #333333;
+  font-size: 20px;
+  text-align: left;
+}
+
+.social p {
+  color: #86878B;
+  font-size: 14px;
+  text-align: left;
+  width: 394px;
+}
+
+.socialText {
+  flex: 0.5;
+}
+
+#wifi {
+  width: 30px;
+  height: 30px;
+  filter: invert(87%) sepia(21%) saturate(3985%) hue-rotate(303deg) brightness(80%) contrast(129%);
+}
+
+.socialSvg {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.5;
+}
+
+.socialSvg img {
+  width: 30px;
+  height: 30px;
+}

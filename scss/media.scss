@@ -1,0 +1,32 @@
+@media (max-width: 700px){
+  .main-nav {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .main-nav a {
+    display: none;
+  }
+
+  #brand {
+    display: block;
+  }
+
+  #burger {
+    display: block;
+    margin-right: 30px;
+    align-self: flex-end;
+  }
+}
+
+// Price list
+@media (min-width: 1000px){
+  .plan1 {
+    width: 343px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}

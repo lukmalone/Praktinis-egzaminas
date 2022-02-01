@@ -1,0 +1,85 @@
+.contentBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #1C1C1C;
+  height:  596px;
+}
+
+#logoPNG {
+  width: 389px;
+  height: 169px;
+  margin: 0 169px 0 210px ;
+}
+
+.logoText {
+  margin-right: 169px;
+}
+
+#linePink {
+  margin: 27px 0;
+}
+.contentBox h5 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.contentBox p {
+  width: 450px;
+  text-align: left;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.titleRound {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentImg {
+  display: flex;
+  flex-direction: row;
+  margin-top: 34px;
+}
+
+.titleText {
+  margin-left: 20px;
+}
+
+.titleText p {
+  margin-top: 6px;
+}
+
+#eye, #chatBubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #E27866 0% 0% no-repeat padding-box;
+  border: 1px solid #E27866;
+  border-radius: 100%;
+}
+
+#eye img, #chatBubble img {
+  width: 34px;
+  height: 26px;
+  color: white;
+}
+
+.titleRound h6 {
+  width: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.titleRound p {
+  width: 394px;
+  text-align: left;
+  font-size: 14px;
+  color: #FFFFFF;
+}

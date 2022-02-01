@@ -1,0 +1,95 @@
+.bottom-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 573px;
+  background: #E27866;
+}
+
+// Subscription box
+.trialBox {
+  position: relative;
+  width: 360px;
+  height: 425px;
+  background: white;
+  box-shadow: 0px 5px 20px #00000029;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.bottomTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  // width: 360px;
+  height: 314px;
+  width: 390px;
+  opacity: 1;
+  background:white;
+  border-radius: 5px;
+}
+
+.bottomTable input:nth-of-type(1),
+.bottomTable input:nth-of-type(2),
+.bottomTable input:nth-of-type(3) {
+  border: none;
+  border-bottom: 2px solid lightgrey;
+  width: 72%;
+  padding: 10px;
+}
+
+.bottomTable input:nth-of-type(1) {
+  margin-top: 30px;
+}
+
+.bottomTable h3:nth-of-type(1) {
+  padding-top: 10px;
+  width: 260px;
+  height: 24px;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  font-size: 20px;
+
+#free {
+  color: #E27866;
+    }
+  }
+
+   input[type="radio"]:checked {
+     opacity: 1;
+   }
+
+   input[type="radio"]:checked{
+   &:after {
+     top: 10%;
+     left: 10%;
+     width: 80%;
+     height: 80%;
+   }
+  }
+
+   input[type="radio"]:checked + label {
+     opacity: 1;
+     color: black;
+   }
+
+   #send {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 158px;
+     height: 48px;
+     background:#41D395;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     border-radius: 0 0 5px 5px;
+   }
+
+   .personal {
+     font-size: 14px;
+   }

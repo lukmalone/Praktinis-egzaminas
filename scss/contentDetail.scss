@@ -1,0 +1,83 @@
+.detailedContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 98px 0 65px 0;
+}
+
+.awesome h3 {
+  font-size: 36px;
+}
+
+.awesome p {
+  font-size: 14px;
+  color: #86878B;
+}
+
+#lineShort {
+  margin:21px 0 26px 0;
+}
+
+.cicleAwe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #E27866;
+  border-radius: 100%;
+
+}
+
+.ribbonText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.awesomeCol h5 {
+  text-align: center;
+  font-size: 20px;
+  color: #333333;
+  // letter-spacing: 0px;
+  margin: 35px 0 27px 0;
+}
+
+.awesomeCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 286px;
+  height: 194px;
+}
+
+.awesomeCol:nth-of-type(1),
+.awesomeCol:nth-of-type(2) {
+  margin-right: 97px;
+}
+
+.awesomeCol p {
+  width: 280px;
+  height: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #86878B;
+}
+
+#ribbon {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: #E27866;
+
+}

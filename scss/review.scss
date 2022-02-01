@@ -1,0 +1,126 @@
+.review {
+  height: 590px;
+  overflow: hidden;
+}
+
+.reviewTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 67px 0 91px 0;
+}
+
+.reviewTop  h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+
+.blueLine {
+   width: 64px;
+   height: 2px;
+   background: #6696E2;
+}
+
+.swiper-wrapper:nth-of-type(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#swiper-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.flexArrow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.manager {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 275px;
+}
+
+#names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100px;
+}
+
+#names h4 {
+  color: #333333;
+  font-size: 20px;
+}
+
+#names p {
+  color: #86878B;
+  font-size: 14px;
+  align-items: flex-start;
+}
+
+.flexArrow .textArrow {
+  position: relative;
+  max-width: 275px;
+  background: #6696E2;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.flexArrow .arrow {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: url("/app/images/avatar.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.flexArrow .arrow:after {
+  position: absolute;
+  right: 20px;
+  top: -30%;
+  content: "";
+  border: 15px solid transparent;
+  border-top: 15px solid #6696E2;
+  // z-index: 1;
+}
+
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: yellow;
+}
+
+.swiper-pagination-bullet {
+  background: yellow;
+}
+
+
+@media (min-width: 1000px){
+  .flexArrow {
+    width: 280px;
+  }
+  // 
+  // .swiper-button-prev,
+  // .swiper-button-next {
+  //   display: none;
+  // }
+}
