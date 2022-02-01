@@ -1,0 +1,29 @@
+.social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 124px;
+  background: #1C1C1C;
+}
+
+.socialSvg2 {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.5;
+  margin-left: 100px;
+}
+
+.socialText2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.socialSvg img,.socialSvg2 img  {
+  width: 30px;
+  height: 30px;
+}

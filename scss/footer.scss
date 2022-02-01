@@ -7,6 +7,17 @@
   background: #E27866;
 }
 
+.bottom-signup h2 {
+  font-size: 36px;
+  color: white;
+  margin: 70px 0 50px;
+}
+
+.bottom-signup p {
+  color: white;
+  margin-bottom: 27px;
+}
+
 // Subscription box
 .trialBox {
   position: relative;
@@ -29,6 +40,7 @@
   opacity: 1;
   background:white;
   border-radius: 5px;
+  padding: 30px 0 20px 0;
 }
 
 .bottomTable input:nth-of-type(1),
@@ -40,23 +52,32 @@
   padding: 10px;
 }
 
-.bottomTable input:nth-of-type(1) {
-  margin-top: 30px;
+
+input[type="radio"]{
+   appearance: none;
+   width: 30px;
+   height: 10px;
+   border: 3px solid #41D395;
+   border-radius: 100%;
+   margin: 0 5px;
+   position: relative;
+   opacity: 0.5;
 }
 
-.bottomTable h3:nth-of-type(1) {
-  padding-top: 10px;
-  width: 260px;
-  height: 24px;
-  letter-spacing: 0px;
-  color: #333333;
-  opacity: 1;
-  font-size: 20px;
-
-#free {
-  color: #E27866;
-    }
+input[type="radio"]{
+  background: #41D395;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 40%;
+    width: 0%;
+    height: 0%;
+    border-radius: 100%;
+    transition: 0.3s;
   }
+}
+
 
    input[type="radio"]:checked {
      opacity: 1;
@@ -87,7 +108,6 @@
      font-weight: bold;
      font-size: 18px;
      border: none;
-     border-radius: 0 0 5px 5px;
    }
 
    .personal {

@@ -19,9 +19,9 @@ window.addEventListener("resize", function(){
 for (var x of links){
   x.addEventListener("click", function(){
     for(var x of links){
-      x.classList.remove("active");
+      x.classList.remove("active-button");
     }
-    this.classList.add("active");
+    this.classList.add("active-button");
   });
 }
 

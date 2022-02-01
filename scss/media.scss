@@ -1,3 +1,260 @@
+
+
+@media (max-width: 1000px) {
+// Header
+  .cityContext {
+    flex-direction: column;
+  }
+
+  .city {
+    align-items: center;
+    height: 1000px;
+  }
+
+  .cityImg {
+    height: 100%;
+    opacity: 0.63;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .city h1 {
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerText {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+    }
+
+  .headerText h1 {
+    flex: 0.5;
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+  .headerText p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .plan1 {
+    width: 343px;
+  }
+
+  .side-nav {
+      display: flex;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
+// Social
+
+  .social {
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .social h4 {
+    text-align: center;
+  }
+
+  .social p {
+    text-align: center;
+  }
+
+  .socialText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .socialSvg {
+    width: 300px;
+  }
+
+  .socialSvg img {
+  }
+
+  // Swiper Tabs
+
+  .swiperBox {
+    max-width: 1000px;
+    height: 900px;
+    flex-direction: column;
+  }
+
+  .tabs {
+    flex-direction: row;
+
+  }
+
+  .swiperBox button {
+    margin: 0 10px;
+   }
+
+  .swiper {
+    width: 440px;
+    height: 1000px;
+  }
+
+  .swiper-wrapper:nth-of-type(1) {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+   }
+
+   #swiper-1 {
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 400px;
+     height: 600px;
+     margin: 0;
+  }
+
+  #swiper-1 h4 {
+    text-align: left;
+    font-size: 24px;
+    width: 430px;
+    height: 120px;
+  }
+
+  #swiper-1 p {
+    margin-top: 15px;
+    font-size: 12px;
+    width: 430px;
+  }
+
+  #swiper-1 span {
+    font-size: 14px;
+  }
+
+  #swiperImg {
+    display: flex;
+    justify-content: center;
+  }
+
+  #swiperText {
+    height: 300px;
+  }
+
+  .hill {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    opacity: 0.42;
+    background-position: center;
+    background-size: cover;
+  }
+
+// Content box
+
+  .contentBox {
+    flex-direction: column;
+    height:  700px;
+  }
+  .contentBox h5 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contentBox p {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  #logoPNG {
+    width: 220px;
+    height: 110px;
+    margin: 0;
+  }
+
+  .logoText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .contentImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titleText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+// Detailed Content
+
+  .ribbonText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .awesomeCol {
+    margin-bottom: 20px;
+  }
+
+  .awesomeCol:nth-of-type(1),
+  .awesomeCol:nth-of-type(2) {
+    margin-right: 0;
+  }
+
+  .social-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialSvg2 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 30px 0 0 0;
+    margin-left: 0 !important;
+  }
+
+  .socialText2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 18px;
+  }
+
+  .bottom-signup {
+    height: 650px;
+  }
+
+}
+
+
 @media (max-width: 700px){
   .main-nav {
     justify-content: space-between;
@@ -16,17 +273,5 @@
     display: block;
     margin-right: 30px;
     align-self: flex-end;
-  }
-}
-
-// Price list
-@media (min-width: 1000px){
-  .plan1 {
-    width: 343px;
-  }
-
-  .swiper-button-prev,
-  .swiper-button-next {
-    display: none;
   }
 }
