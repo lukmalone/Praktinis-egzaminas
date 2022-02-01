@@ -51,6 +51,7 @@
 
   .side-nav {
       display: flex;
+
   }
 
   .swiper-button-prev,
@@ -262,6 +263,11 @@
 
 
 @media (max-width: 700px){
+  .side-nav {
+    
+
+  }
+
   .main-nav {
     justify-content: space-between;
     padding: 0 30px;
