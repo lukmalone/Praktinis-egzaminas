@@ -35,6 +35,6 @@ for (var x of buttons){
     this.classList.add("active");
     var index = this.getAttribute("index");
     // var index = document.querySelector(".active").getAttribute("index");
-    swiper.slideTo(index, 1000);
+    swiper.slideTo(index, 900);
   });
 }

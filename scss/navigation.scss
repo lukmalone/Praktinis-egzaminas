@@ -43,10 +43,13 @@
   align-items: center;
   justify-content: center;
   width: 100px;
-  height: 50px;
-  background: grey;
+  height: 40px;
+  background: #E27866;
   border: none;
   border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 #logo {
@@ -94,7 +97,7 @@
 }
 
 .rotateZ {
-  transform: rotateZ(-90deg);
+  transform: scale(1.2);
 }
 
 .side-nav {
