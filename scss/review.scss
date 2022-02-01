@@ -86,7 +86,7 @@
   position: relative;
   width: 70px;
   height: 70px;
-  background: url("../app/images/avatar.png");
+  background: url("/app/images/avatar.png");
   background-size: cover;
   background-position: center;
   border-radius: 100%;
@@ -118,9 +118,9 @@
   .flexArrow {
     width: 280px;
   }
-  //
-  // .swiper-button-prev,
-  // .swiper-button-next {
-  //   display: none;
-  // }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
 }
